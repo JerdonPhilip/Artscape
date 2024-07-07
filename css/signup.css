@@ -1,0 +1,61 @@
+body{
+    background-image: url(../photo/bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.navbar{
+    background-image: transparent !important;
+}
+.form{
+    margin: 2% auto;
+    padding: 30px 20px 30px 20px;
+    width: 40%;
+    height: auto;
+    border-radius: 10px;
+    background: hsla(50, 57%, 47%, 0.95);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+}
+
+
+h2{
+    text-align: center;
+    margin-top: 10px;
+}
+.img img{
+    width: 50%;
+    height: auto;
+    border: 4px black dashed;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ref a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: blue !important;
+
+}
+.btn{
+    width: 50%;
+    padding: 8px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+@media screen and (max-width: 990px) {
+    .form{
+        width: 50% ;
+    }
+  }
+@media only screen and (max-width: 900px) {
+    .form{
+        min-width: 70%;
+        margin-top: 10%;
+
+    }
+    }

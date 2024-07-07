@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@500&family=Fasthand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+html{
+    scroll-behavior: smooth;
+    width: 100%;
+    height: 100%;
+}
+body{
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    
+}
+body::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+  }
+
+#navbarText{
+  margin-left: -15%;
+  
+}
+#navbarText ul li a{
+  font-family: 'Lobster', cursive;
+  color: black;
+  font-size: 1.4vw;
+  word-spacing: 5px;
+
+}
+.i{
+  font-size: 2vw;
+}
+li > a::after {
+  content: "";
+  display: block;
+  margin: auto;
+  height: 3px;
+  width: 0;
+  top: 5px;
+  background: transparent;
+  transition: all 0.3s;
+  
+}
+.navbar-brand{
+    font-family: 'Lobster', cursive;
+    font-size: 34px !important;
+  }
+li > a:hover::after, li > a.active-nav::after {
+  width: 100%;
+  background: rgb(244,39,13);
+background: linear-gradient(87deg, rgba(244,39,13,1) 0%, rgba(163,34,2,1) 100%);
+}
+.container-fluid header{
+    margin-top: 60px;
+    padding: 20px;
+    background: rgb(13,244,70);
+    background: linear-gradient(87deg, rgba(13,244,70,1) 0%, rgba(2,152,163,1) 100%);
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    color: white;
+}
+.container-fluid header h2{
+    font-size: 4vw;
+}   
+.container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+}
+.title {
+    font-size: 25px;
+    font-weight: 100
+}
+
+.icon {
+    position: relative;
+    bottom: 11px
+}
+
+.mt-100 {
+    margin-top: 100px
+}
+
+.profile img {
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card {
+    border-radius: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .2)
+}
+
+.card-body {
+    position: relative;
+    bottom: 35px
+}
+
+.btn {
+    margin-top: 36px;
+    margin-bottom: 45px;
+    background-color: #AB47BC;
+    border: none;
+    color: #fff
+}
+
+.btn:hover {
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+    color: #fff
+}
+
+.header {
+    padding-top: 40px
+}
+button.btn{
+    background-color: whitesmoke;
+    border: 1px solid grey;
+    color: black;
+    text-align: center;
+}
+.btnn{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
